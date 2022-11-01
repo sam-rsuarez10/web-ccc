@@ -22,11 +22,9 @@
             <router-link to="/nosotros">Sobre Nosotros</router-link>
           </b-nav-item>
 
-          <b-nav-item-dropdown text="Ayuda" class="navLista">
-            <b-dropdown-item><a href="">CCC Ayuda</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Oramo Por Ti</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Consejería</a></b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item class="m-md-2 navLista">
+                <router-link to="/ayuda">Ayuda</router-link>
+          </b-nav-item>
 
           <b-nav-item-dropdown text="Grupos" class="navLista">
             <b-dropdown-item><a href="">Protada</a></b-dropdown-item>

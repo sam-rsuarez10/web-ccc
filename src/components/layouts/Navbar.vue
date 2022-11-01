@@ -21,18 +21,15 @@
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ms-auto">
               <b-nav-item
-                text="Sobre Nosotros"
                 class="m-md-2 navLista"
                 style="color: white !important"
               >
                 <router-link to="/nosotros">Sobre Nosotros</router-link>
               </b-nav-item>
 
-              <b-nav-item-dropdown text="Ayuda" class="m-md-2 navLista">
-                <b-dropdown-item><a href="">CCC Ayuda</a></b-dropdown-item>
-                <b-dropdown-item><a href="">Oramo Por Ti</a></b-dropdown-item>
-                <b-dropdown-item><a href="">Consejería</a></b-dropdown-item>
-              </b-nav-item-dropdown>
+              <b-nav-item class="m-md-2 navLista">
+                <router-link to="/ayuda">Ayuda</router-link>
+              </b-nav-item>
 
               <b-nav-item-dropdown text="Grupos" class="m-md-2 navLista">
                 <b-dropdown-item><a href="">Protada</a></b-dropdown-item>
