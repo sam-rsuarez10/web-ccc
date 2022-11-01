@@ -18,12 +18,9 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ms-auto">
-          <b-nav-item-dropdown text="Sobre Nosotros" class="navLista">
-            <b-dropdown-item><a href="">Portada</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Historia</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Misión Visión</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Pilares</a></b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item class="navLista">
+            <router-link to="/nosotros">Sobre Nosotros</router-link>
+          </b-nav-item>
 
           <b-nav-item-dropdown text="Ayuda" class="navLista">
             <b-dropdown-item><a href="">CCC Ayuda</a></b-dropdown-item>
