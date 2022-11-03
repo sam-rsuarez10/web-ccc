@@ -31,17 +31,9 @@
                 <router-link to="/ayuda">Ayuda</router-link>
               </b-nav-item>
 
-              <b-nav-item-dropdown text="Grupos" class="m-md-2 navLista">
-                <b-dropdown-item><a href="">Protada</a></b-dropdown-item>
-                <b-dropdown-item><a href="">Niños</a></b-dropdown-item>
-                <b-dropdown-item><a href="">Jóvenes</a></b-dropdown-item>
-                <b-dropdown-item><a href="">Mujeres</a></b-dropdown-item>
-                <b-dropdown-item><a href="">Varones</a></b-dropdown-item>
-                <b-dropdown-item
-                  ><a href="">Reuniones en Casa</a></b-dropdown-item
-                >
-                <b-dropdown-item><a href="">Directorio</a></b-dropdown-item>
-              </b-nav-item-dropdown>
+              <b-nav-item class="m-md-2 navLista">
+                <router-link to="/grupos">Grupos</router-link>
+              </b-nav-item>
 
               <b-nav-item-dropdown
                 text="Formación"
@@ -135,6 +127,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
 
 .navv a {
   color: tomato;

@@ -26,15 +26,9 @@
                 <router-link to="/ayuda">Ayuda</router-link>
           </b-nav-item>
 
-          <b-nav-item-dropdown text="Grupos" class="navLista">
-            <b-dropdown-item><a href="">Protada</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Niños</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Jóvenes</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Mujeres</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Varones</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Reuniones en Casa</a></b-dropdown-item>
-            <b-dropdown-item><a href="">Directorio</a></b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item class="m-md-2 navLista">
+              <router-link to="/grupos">Grupos</router-link>
+          </b-nav-item>
 
           <b-nav-item-dropdown text="Formación" right class="navLista">
             <b-dropdown-item><a href="">Fundamentos</a> </b-dropdown-item>
@@ -67,4 +61,5 @@
   font-weight: 600;
   font-style: normal;
 }
+
 </style>
