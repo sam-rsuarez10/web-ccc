@@ -5,6 +5,7 @@ import Dar from '../components/Dar.vue'
 import Nosotros from '../components/Nosotros.vue'
 import Ayuda from '../components/Ayuda.vue'
 import Grupos from '../components/Grupos.vue'
+import Formacion from '../components/Formacion.vue'
 
 
 Vue.use(VueRouter)
@@ -34,6 +35,11 @@ const routes = [
     path: '/grupos',
     name: 'Grupos',
     component: Grupos
+  },
+  {
+    path: '/formacion',
+    name: 'Formacion',
+    component: Formacion
   },
 ]
 

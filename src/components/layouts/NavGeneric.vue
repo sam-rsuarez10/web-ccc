@@ -30,13 +30,9 @@
               <router-link to="/grupos">Grupos</router-link>
           </b-nav-item>
 
-          <b-nav-item-dropdown text="Formación" right class="navLista">
-            <b-dropdown-item><a href="">Fundamentos</a> </b-dropdown-item>
-            <b-dropdown-item
-              ><a href="">Escuela de Liderazgo</a></b-dropdown-item
-            >
-            <b-dropdown-item><a href="">Estudios Biblicos</a></b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item right class="navLista">
+            <router-link to="/formacion">Formación</router-link>
+          </b-nav-item>
 
           <b-nav-item>Dar</b-nav-item>
 
