@@ -39,7 +39,9 @@
                 <router-link to="/formacion">Formación</router-link>
               </b-nav-item>
 
-              <b-nav-item class="m-md-2">Dar</b-nav-item>
+              <b-nav-item class="m-md-2">
+                <router-link to="/dar">Dar</router-link>
+              </b-nav-item>
 
               <b-nav-item class="m-md-2">Misiones</b-nav-item>
 
