@@ -47,8 +47,9 @@
                 <router-link to="/misiones">Misiones</router-link>
               </b-nav-item>
 
-              <b-nav-item class="m-md-2">Contactanos</b-nav-item>
-
+              <b-nav-item class="m-md-2">
+                <router-link to="/contactanos">Contactanos</router-link>
+              </b-nav-item>
               <b-nav-item-dropdown text="Mi CCC" right class="m-md-2 navLista">
                 <b-dropdown-item><a href="">Cuenta</a> </b-dropdown-item>
               </b-nav-item-dropdown>
