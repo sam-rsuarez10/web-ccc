@@ -8,6 +8,7 @@ import Grupos from '../components/Grupos.vue'
 import Formacion from '../components/Formacion.vue'
 import Misiones from '../components/Misiones.vue'
 import Contactanos from '../components/Contactanos.vue'
+import MiCCC from '../components/Mi-CCC.vue';
 
 
 Vue.use(VueRouter)
@@ -52,6 +53,11 @@ const routes = [
     path: '/contactanos',
     name: 'Contactanos',
     component: Contactanos
+  },
+  {
+    path: '/mi-ccc',
+    name: 'Mi-CCC',
+    component: MiCCC
   }
 ]
 

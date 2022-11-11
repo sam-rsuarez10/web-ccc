@@ -46,9 +46,9 @@
                 <router-link to="/contactanos">Contactanos</router-link>
           </b-nav-item>
 
-          <b-nav-item-dropdown text="Mi CCC" right class="navLista">
-            <b-dropdown-item><a href="">Cuenta</a> </b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item class="m-md-2">
+                <router-link to="/mi-ccc">Mi CCC</router-link>
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
