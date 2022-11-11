@@ -6,6 +6,7 @@ import Nosotros from '../components/Nosotros.vue'
 import Ayuda from '../components/Ayuda.vue'
 import Grupos from '../components/Grupos.vue'
 import Formacion from '../components/Formacion.vue'
+import Misiones from '../components/Misiones.vue'
 
 
 Vue.use(VueRouter)
@@ -40,6 +41,11 @@ const routes = [
     path: '/formacion',
     name: 'Formacion',
     component: Formacion
+  },
+  {
+    path: '/misiones',
+    name: 'Misiones',
+    component: Misiones
   },
 ]
 

@@ -38,7 +38,9 @@
                 <router-link to="/dar">Dar</router-link>
           </b-nav-item>
 
-          <b-nav-item>Misiones</b-nav-item>
+          <b-nav-item class="m-md-2">
+                <router-link to="/misiones">Misiones</router-link>
+          </b-nav-item>
 
           <b-nav-item>Contactanos</b-nav-item>
 
