@@ -24,34 +24,34 @@
                 class="m-md-2 navLista"
                 style="color: white !important"
               >
-                <router-link to="/nosotros">Sobre Nosotros</router-link>
+                <router-link class="nav-link" to="/nosotros">Sobre Nosotros</router-link>
               </b-nav-item>
 
               <b-nav-item class="m-md-2 navLista">
-                <router-link to="/ayuda">Ayuda</router-link>
+                <router-link class="nav-link"  to="/ayuda">Ayuda</router-link>
               </b-nav-item>
 
               <b-nav-item class="m-md-2 navLista">
-                <router-link to="/grupos">Grupos</router-link>
+                <router-link class="nav-link"  to="/grupos">Grupos</router-link>
               </b-nav-item>
 
-              <b-nav-item right class="navLista">
-                <router-link to="/formacion">Formación</router-link>
-              </b-nav-item>
-
-              <b-nav-item class="m-md-2">
-                <router-link to="/dar">Dar</router-link>
+              <b-nav-item right class="m-md-2 navLista">
+                <router-link class="nav-link"  to="/formacion">Formación</router-link>
               </b-nav-item>
 
               <b-nav-item class="m-md-2">
-                <router-link to="/misiones">Misiones</router-link>
+                <router-link class="nav-link"  to="/dar">Dar</router-link>
               </b-nav-item>
 
               <b-nav-item class="m-md-2">
-                <router-link to="/contactanos">Contactanos</router-link>
+                <router-link class="nav-link"  to="/misiones">Misiones</router-link>
+              </b-nav-item>
+
+              <b-nav-item class="m-md-2">
+                <router-link class="nav-link"  to="/contactanos">Contactanos</router-link>
               </b-nav-item>
               <b-nav-item class="m-md-2">
-                <router-link to="/mi-ccc">Mi CCC</router-link>
+                <router-link class="nav-link"  to="/mi-ccc">Mi CCC</router-link>
               </b-nav-item>
             </b-navbar-nav>
           </b-collapse>
@@ -122,6 +122,7 @@
   font-weight: 600;
   font-style: normal;
 }
+
 
 
 .navv a {
