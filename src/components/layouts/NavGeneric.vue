@@ -1,14 +1,16 @@
 <template>
-  <div class="container">
-    <b-navbar toggleable="lg" type="ligth" class="navv">
-      <b-navbar-brand href="/index">
+  <div>
+    <div class="container">
+      <b-navbar-brand href="/index" class="mx-auto d-block">
         <img
           src="../../assets/logoColor.png"
-          class="d-inline-block align-top"
+          class="mx-auto d-block"
           width="160"
           height="95"
         />
       </b-navbar-brand>
+    </div>
+    <b-navbar toggleable="lg" type="dark" class="navv" style="background-color: #1A3926 !important;">
 
       <b-navbar-toggle
         target="nav-collapse"
@@ -17,12 +19,12 @@
 
       <b-collapse id="nav-collapse" is-nav>
             <!-- Right aligned nav items -->
-            <b-navbar-nav class="ms-auto">
+            <b-navbar-nav class="mx-auto">
               <b-nav-item
                 class="m-md-2 navLista"
                 style="color: white !important"
               >
-                <router-link class="nav-link" to="/nosotros">Sobre Nosotros</router-link>
+                <router-link class="nav-link" to="/nosotros">Nosotros</router-link>
               </b-nav-item>
 
               <b-nav-item class="m-md-2 navLista">
@@ -42,7 +44,7 @@
               </b-nav-item>
 
               <b-nav-item class="m-md-2">
-                <router-link class="nav-link"  to="/misiones">Misiones</router-link>
+                <router-link class="nav-link"  to="/misiones"><span>Misiones</span></router-link>
               </b-nav-item>
 
               <b-nav-item class="m-md-2">
@@ -64,6 +66,23 @@
   font-family: skolar-sans-latin, sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+span:hover {
+  size: 10% !important;
+  transition: 0.2s !important;
+  transition-delay: 0ms !important;
+  animation-delay: 0ms !important;
+  transition-duration: 0.2s !important;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 </style>

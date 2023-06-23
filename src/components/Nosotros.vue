@@ -1,27 +1,17 @@
 <!--Subpágina de Nosotros-->
 <template>
   <div>
-    <Portada />
-      <div class="container">
-        <hr class="separador" />
-      </div>
+    <br><br>
     <MisionVision />
-      <div class="container">
-        <hr class="separador" />
-      </div>
+    <br><br>
     <Historia />
-      <div class="container">
-        <hr class="separador" />
-      </div>
+    <br><br><br>
     <Pilares />
-      <div class="container">
-        <hr class="separador" />
-      </div>
+    <br><br><br>
   </div>
 </template>
 
 <script>
-import Portada from './sobre-nosotros/Portada.vue';
 import MisionVision from './sobre-nosotros/MisionVision.vue';
 import Historia from './sobre-nosotros/Historia.vue';
 import Pilares from './sobre-nosotros/Pilares.vue';
@@ -29,7 +19,6 @@ import Pilares from './sobre-nosotros/Pilares.vue';
 export default {
   name: "App",
   components: {
-    Portada,
     MisionVision,
     Historia,
     Pilares
